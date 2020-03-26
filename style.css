@@ -24,18 +24,29 @@ header > h1 {
 
 .score-board {
     border: 15px solid rgb(0, 0, 0);
-    border-radius: 4px;
-    width: 50%;
+    border-radius: 44px;
+    width: 300px;
     margin: 100px auto;
     font-size: 300px;
     text-align: center;
-    padding: 15px 100px;
+    padding: 20px 100px;
     position: relative;
+}
+
+.monitoring {
+
+    margin: auto;
+ margin-left: -30px;
+ margin-top: 50px;
+
+
+    
 }
 
 .badge {
     background-color: rgb(0, 0, 0);
     color: #E9967A;
+    border-radius: 12%;
     font-size: 60px;
     padding: 8px 20px;
 }
