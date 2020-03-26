@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap&subset=latin-ext,vietnamese');
+
+* {
+    font-family: VT323, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darksalmon;
+}
+
+header {
+    color: #E9967A;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+}
+
+header > h1 {
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.score-board {
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 50%;
+    margin: 100px auto;
+    font-size: 300px;
+    text-align: center;
+    padding: 15px 100px;
+    position: relative;
+}
+
+.badge {
+    background-color: rgb(0, 0, 0);
+    color: #E9967A;
+    font-size: 60px;
+    padding: 8px 20px;
+}
+
+#user-label {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+ 
+}
+
+#computer-label {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.result {
+    margin-top: -40px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+.buttons {
+    padding: 20px;
+    margin: 20px 0 0;
+    width: 100%;
+    text-align: center;
+    
+   
+ 
+}
+
+button {
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 5px 10px;
+    border-radius: 20%;
+    background-color: #E9967A;
+    color: black;
+    font-size: 40px;
+}
+
+.buttonclass {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px 30px;
+    
+  
+}
+
+.buttonclass:hover {
+    cursor: pointer;
+    background: rgb(202, 130, 105);
+    transition: all 0.5s ease-in-out;
+}
+
+
+.choicebox {
+    font-size: 50px;
+    text-align: center;
+    margin: 35px 0 0 0;
+}
